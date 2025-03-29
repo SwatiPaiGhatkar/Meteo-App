@@ -11,8 +11,13 @@ footer {
   justify-content: space-around;
   padding: 0.05px 2px;
   background-color: #d0e0ee;
-  border-radius: 10px;
+  border-radius: 3px;
   opacity: 0.8;
+  margin: 20px;
+}
+
+a {
+  color: #0458ce;
 }
 .weather-app {
   background-color: #294b6c;
@@ -25,10 +30,46 @@ footer {
   background-size: auto;
   opacity: 0.8;
 }
-
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding: 0 0 30px 0;
+}
 .app-logo {
-  max-width: 200px;
-  max-height: 150px;
+  max-width: 150px;
+  max-height: 100px;
   position: relative;
   border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.search-bar {
+  background-color: #d0e0ee;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 18px;
+  width: 70%;
+}
+
+.search-button {
+  background-color: #0458ce;
+  font-size: 16px;
+  padding: 20px 30px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  transition: 300ms ease-in-out;
+}
+.search-button:hover {
+  background-color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px 30px;
+  margin-left: 20px;
+  border-radius: 10px;
+  color: #0458ce;
+  cursor: pointer;
+  border-color: #0458ce;
+  border-style: solid;
 }
