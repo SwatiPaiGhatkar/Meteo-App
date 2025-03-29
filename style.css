@@ -9,11 +9,12 @@ footer {
   color: black;
   display: flex;
   justify-content: space-around;
+  font-weight: 500;
   padding: 0.05px 2px;
   background-color: #d0e0ee;
   border-radius: 3px;
   opacity: 0.8;
-  margin: 20px;
+  margin-top: 20px;
 }
 
 a {
@@ -72,4 +73,39 @@ header {
   cursor: pointer;
   border-color: #0458ce;
   border-style: solid;
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.line {
+  margin: 50px 0;
+  color: white;
+  opacity: 0.5;
+}
+.current-city {
+  color: white;
+  font-weight: bolder;
+  margin: none;
+  font-size: 38px;
+  line-height: 48px;
+}
+.current-weather p {
+  opacity: 0.8;
+  line-height: 1.5;
+  font-size: 16px;
+}
+strong {
+  color: rgb(253, 232, 0);
+}
+
+.current-temperature-data-container {
+  display: flex;
+}
+
+.degrees {
+  font-size: 100px;
 }
