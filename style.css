@@ -110,8 +110,9 @@ header {
   line-height: 1.5;
   font-size: 16px;
 }
-strong {
+.yellow {
   color: rgb(253, 232, 0);
+  font-weight: bolder;
 }
 
 .current-temperature-data-container {
@@ -131,4 +132,11 @@ strong {
 .unit {
   margin-top: 23px;
   font-size: 28px;
+}
+
+.feels-like {
+  opacity: 0.8;
+  line-height: 1.5;
+  font-size: 16px;
+  margin-top: -15px;
 }

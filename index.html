@@ -38,10 +38,16 @@
           <div>
             <h1 class="current-city" id="current-city">Melbourne</h1>
             <p class="weather-data">
-              Tuesday 14:49, scattered clouds
+              <span id="time"></span>, <span id="description"> </span>
               <br />
-              Humidity: <strong>66%</strong>, Wind: <strong>3.13 km/h</strong>
+              Humidity:
+              <span class="yellow" id="humidity"> </span>
+              , Wind Gust:
+              <span class="yellow" id="wind"> </span>
             </p>
+            <div class="feels-like">
+              Feels like: <strong id="feels-like" class="yellow"> </strong>
+            </div>
           </div>
           <div class="current-temperature-data-container">
             <div class="emojie">🌤️</div>
