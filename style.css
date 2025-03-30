@@ -117,21 +117,28 @@ header {
 
 .current-temperature-data-container {
   display: flex;
+  align-items: center;
 }
 
 .degrees {
   font-size: 80px;
+  font-weight: bold;
   margin: 0;
+  line-height: 1;
   margin-left: 10px;
+  align-self: center;
 }
 .emojie {
   font-size: 44px;
-  margin-top: 22px;
+  margin-right: 5px;
 }
 
 .unit {
-  margin-top: 23px;
+  margin-top: 50px;
   font-size: 28px;
+  align-self: flex-start;
+  margin-left: 5px;
+  font-weight: bold;
 }
 
 .feels-like {
