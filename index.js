@@ -1,6 +1,6 @@
 function displayWeather(response) {
   let temperatureElement = document.querySelector("#temp");
-  temperatureElement.innerHTML = Math.round(response.data.temperature.current);
+  temperatureElement.innerHTML = response.data.temperature.current.toFixed(1);
   let currentCityElement = document.querySelector("#current-city");
   currentCityElement.innerHTML = response.data.city;
 }
