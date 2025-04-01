@@ -35,7 +35,7 @@ a {
 .weather-app {
   background: linear-gradient(#82d7e6, #4048c4);
   color: white;
-  max-width: 750px;
+  max-width: 650px;
   margin: 60px auto;
   padding: 60px;
   border-radius: 20px;
