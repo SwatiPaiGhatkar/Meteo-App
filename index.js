@@ -92,9 +92,9 @@ function displayForecast(response) {
             </div>
             <div class="weather-forecast-temp">
               <div class="weather-forecast-temperature">
-                <strong>${day.temperature.maximum.toFixed(1)}°</strong>
+                <strong> ${day.temperature.maximum.toFixed(1)}°</strong>
               </div>
-              <div class="weather-forecast-temperature">${day.temperature.minimum.toFixed(
+              <div class="weather-forecast-temperature"> ${day.temperature.minimum.toFixed(
                 1
               )}°</div>
             </div>

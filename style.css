@@ -73,7 +73,7 @@ header {
   border: none;
   border-radius: 10px;
   color: white;
-  transition: 300ms ease-in-out;
+  transition: 200ms ease-in-out;
 }
 .search-button:hover {
   background-color: white;
@@ -183,6 +183,6 @@ header {
   border-style: 0.6;
   border-radius: 15px;
   padding: 5px;
-  background: linear-gradient(rgb(0, 200, 255), green);
+  background: linear-gradient(rgb(244, 110, 244), rgb(0, 200, 255));
   opacity: 0.9;
 }
