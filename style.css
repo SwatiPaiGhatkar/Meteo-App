@@ -90,19 +90,20 @@ header {
 .current-weather {
   display: flex;
   justify-content: space-between;
-  margin: 50px 0;
+  align-items: center;
+  margin: 30px 10px;
 }
 
 .line {
-  margin: 50px 0;
+  margin: 30px 0;
   color: white;
   opacity: 0.5;
 }
 .current-city {
   color: white;
   font-weight: bolder;
-  margin: none;
-  font-size: 38px;
+  margin-top: 20px;
+  font-size: 48px;
   line-height: 48px;
 }
 .current-weather p {
@@ -146,4 +147,43 @@ header {
   line-height: 1.5;
   font-size: 16px;
   margin-top: -15px;
+}
+
+.weather-forecast-container {
+  display: flex;
+  padding: 5px;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.weather-forecast-day {
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.weather-forecast-icon {
+  font-size: 38px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.weather-forecast-temp {
+  text-align: center;
+  color: rgb(253, 232, 0);
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.weather-forecast-temperature {
+  padding: 0 5px;
+}
+.weather-forecast-week {
+  border-style: 0.6;
+  border-radius: 15px;
+  padding: 5px;
+  background: linear-gradient(rgb(0, 200, 255), green);
+  opacity: 0.9;
 }
